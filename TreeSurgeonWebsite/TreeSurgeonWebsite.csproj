@@ -200,6 +200,16 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TreeSurgeonWebsite.Data\TreeSurgeonWebsite.Data.csproj">
+      <Project>{5c4219fc-acbf-426e-82d3-5b9533527a74}</Project>
+      <Name>TreeSurgeonWebsite.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreeSurgeonWebsite.Services\TreeSurgeonWebsite.Services.csproj">
+      <Project>{dcaf2a97-953a-4f3d-8abe-214112779bb2}</Project>
+      <Name>TreeSurgeonWebsite.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
