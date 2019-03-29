@@ -10,6 +10,6 @@ namespace TreeSurgeonWebsite.Data.IDAO
   public interface IContact
     {
 
-        //IList<Contact> GetContacts();
+        IList<Contact> GetContacts();
     }
 }

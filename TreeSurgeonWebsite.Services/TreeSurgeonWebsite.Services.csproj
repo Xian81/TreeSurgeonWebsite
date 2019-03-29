@@ -44,12 +44,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TreeSurgeonWebsite.Data\TreeSurgeonWebsite.Data.csproj">
-      <Project>{5c4219fc-acbf-426e-82d3-5b9533527a74}</Project>
-      <Name>TreeSurgeonWebsite.Data</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="IService\" />
     <Folder Include="Service\" />
   </ItemGroup>

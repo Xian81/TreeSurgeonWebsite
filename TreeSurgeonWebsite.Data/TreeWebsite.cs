@@ -1,13 +1,13 @@
-namespace TreeSurgeonWebsite.Models
+namespace TreeSurgeonWebsite.Data
 {
     using System;
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class TreeWebsiteModel : DbContext
+    public partial class TreeWebsite : DbContext
     {
-        public TreeWebsiteModel()
+        public TreeWebsite()
             : base("name=TreeWebsite")
         {
         }

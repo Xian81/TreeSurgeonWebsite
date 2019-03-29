@@ -1,4 +1,4 @@
-namespace TreeSurgeonWebsite.Models
+namespace TreeSurgeonWebsite.Data
 {
     using System;
     using System.Collections.Generic;
